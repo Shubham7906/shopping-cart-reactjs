@@ -57,12 +57,12 @@ function Checkout() {
         </div>
 
         <div className="flex justify-end">
-          <Link to='/home'
+          <button
             type="submit"
             className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none"
           >
             Place Order
-          </Link>
+          </button>
         </div>
       </form>
     </div>
