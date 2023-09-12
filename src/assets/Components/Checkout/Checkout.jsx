@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Checkout() {
   const [formData, setFormData] = useState({
@@ -57,7 +58,8 @@ function Checkout() {
         </div>
 
         <div className="flex justify-end">
-          <Link to='/products'
+          <Link to='/'
+            onClick={() => handleSubmit()}
             type="submit"
             className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none"
           >
