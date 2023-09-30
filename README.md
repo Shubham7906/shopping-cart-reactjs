@@ -1,6 +1,6 @@
 # Shopping Cart
 
-Built this Ecommerce website using modern web technologies, including React.js for building the frontend, Tailwind CSS for styling, and the Fakestore API as the data source. 
+Built this Ecommerce Website using modern web technologies, including React.js for building the frontend, Tailwind CSS for styling, and the Fakestore API as the data source. 
 
 ## Features
 - Product Listing
